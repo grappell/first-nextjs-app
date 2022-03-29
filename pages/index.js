@@ -19,11 +19,9 @@ export default function Home() {
       <Navbar />
 
       <main>
-        <div >
-          <img src='https://cdn1.epicgames.com/ue/product/Screenshot/1-1920x1080-a58e6c53fee218623cb26ba39786d1e5.jpg?resize=1&w=1920' className='welcome-image'/>
-          {/* <Viewport /> something to figure out for a later time */}
+        <div className='welcome-image-main'>
         </div>
-        <h1> Welcome to my homepage</h1>
+        <h1> Welcome to my homepage (replace with who you are)</h1>
         <div id='body-text'>
           <p>Elit deserunt exercitation sunt sit quis proident sit eiusmod culpa labore tempor. Nostrud laboris quis qui sint magna minim veniam veniam aliquip deserunt adipisicing ea. Magna labore nulla aliquip enim sit mollit labore esse sunt labore veniam. Elit Lorem ipsum aliqua adipisicing deserunt reprehenderit commodo consectetur ea consequat deserunt ad.
 
@@ -90,8 +88,6 @@ export default function Home() {
           Et ea duis duis excepteur velit do ea. Ea do nisi dolore ex minim velit. Esse sunt minim excepteur ex officia nisi irure incididunt velit.</p>
         </div>
       </main>
-
-     <Footer />
 
     </div>
   )

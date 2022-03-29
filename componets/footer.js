@@ -1,7 +1,9 @@
 const Footer = () => {
     return (
-        <div>
-            Copyight 2022 Wifi Studios 
+        <div className="footer-container">
+            <div class="footer">
+                Copyight 2022 Wifi Studios 
+            </div>
         </div>
     )
 }
